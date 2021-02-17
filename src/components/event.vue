@@ -37,10 +37,4 @@ export default {
 </script>
 
 <style scoped>
-.event{
-    animation: mouseOut 0.3s ease-in;
-}
-.event:hover{
-    animation: mouseOver 0.3s ease-in forwards;
-}
 </style>

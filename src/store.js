@@ -18,8 +18,8 @@ export default new Vuex.Store({
     technologies: {
       programming:  [
         { name: "Python", level: 75 },
-        { name: "Java", level: 62 },
-        { name: "HTML & CSS", level: 92 },
+        { name: "Java", level: 65 },
+        { name: "HTML & CSS", level: 90 },
         { name: "Javascript (ES6)", level: 80 },
         { name: "Typescript", level: 60 }
       ],
@@ -27,7 +27,7 @@ export default new Vuex.Store({
         { name: "Vue.js", level: 85 },
         { name: "Tailwind.css", level: 80 },
         { name: "Bootstrap", level: 70 },
-        { name: "Node.js & Express.js", level: 72 },
+        { name: "Node.js & Express.js", level: 75 },
         { name: "Ionic", level: 65 },
       ],
       tools:[
@@ -60,7 +60,7 @@ export default new Vuex.Store({
       {
         name: "Cloudnaut Technologies",
         role: "Full Stack JavaScript Developer",
-        description: "Cloudnaut was the technological partner of hireful, a UK based company working in the recruitment domain. Most of my work at Cloudnaut was focused around developing and upgrade the hireful ATS product.",
+        description: "Cloudnaut was the technological partner of hireful, a UK based company working in the recruitment domain. Most of my work at Cloudnaut was focused around developing and upgrading the hireful ATS product.",
         startDate: "Sept 2018",
         endDate: "Dec 2020",
         roles: [
