@@ -12,7 +12,7 @@
             </h1>
         </div>
         <div class="w-full my-2">
-            <div class="text-label-highlight text-xl" v-html="profile.description">
+            <div class="text-secondary-main text-xl" v-html="profile.description">
             </div>
             <button
                 class="text-primary-main rounded-sm text-lg p-4
