@@ -11,7 +11,7 @@ module.exports = {
       xl: '1280px',
     },
     colors: {
-        transparent:{  
+        transparent:{
             empty: 'transparent',
             primary: 'rgba(63,80,181,0.2)',
             secondary: 'rgba(255, 249, 34, 0.2)'
@@ -19,9 +19,9 @@ module.exports = {
         white: '#fff',
         black: '#000',
 
-        background: { 
-            default: '#fb58ac',
-            light:'#144ec3',
+        background: {
+            default: '#92374d',
+            light:'#4A5899',
             nav:'#273a69',
             footer: '#144ec3'
         },
@@ -29,13 +29,13 @@ module.exports = {
         label: {
             title: '#ffffff',
             subtitle: '#92eaff',
-            info: '#1c2a4c',
-            highlight: '#1ed418',
+            info: '#c5d86d',
+            highlight: '#c5d86d',
         },
 
         primary: {
             light: '#c44ee4',
-            main: '#1046c3',
+            main: '#91beca',
             dark: '#6d1485',
             contrastText: '#fff',
             highlight: '#1ed418',
