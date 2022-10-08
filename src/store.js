@@ -11,31 +11,30 @@ export default new Vuex.Store({
       birthday: new Date(1995, 8, 4),
       startDescription: "Hello I’m Dhiraj",
       description:
-      "I am based in Syracuse, New York.<br> I am a Full Stack Developer with more than 4 years of experience building websites and web applications.",
+      "I am based in Syracuse, New York.<br> I am a Full Stack Developer with 4+ years of experience developing software applications.",
       aboutMe:
       "I am currently pursuing a MS in Computer Engineering from Syracuse University.<br> I am passionate about Robotics, Web Dev, Machine Learning and Embedded Systems.<br> Outside of work, I enjoy cooking, reading and spend most of my time binge watching cartoons.",
     },
     technologies: {
       programming:  [
+        { name: "Javascript (ES6)", level: 95 },
+        { name: "Typescript", level: 80 },
+        { name: "Rust", level: 80 },
         { name: "Python", level: 75 },
-        { name: "Java", level: 65 },
-        { name: "HTML & CSS", level: 90 },
-        { name: "Javascript (ES6)", level: 80 },
-        { name: "Typescript", level: 60 }
       ],
       frameworks: [
+        { name: 'React', level: 95 },
         { name: "Vue.js", level: 85 },
-        { name: "Tailwind.css", level: 80 },
-        { name: "Bootstrap", level: 70 },
-        { name: "Node.js & Express.js", level: 75 },
-        { name: "Ionic", level: 65 },
+        { name: "Angular", level: 80 },
+        { name: "Node.js & Express.js", level: 90 },
       ],
       tools:[
-        { name: "git" },
+        { name: "AWS" },
+        { name: "Kubernetes" },
+        { name: "Gradle" },
         { name: "Webpack" },
         { name: "Netlify" },
         { name: "Docker" },
-        { name: "AWS" },
         { name: "Selenium" }
       ]
     },
@@ -43,41 +42,60 @@ export default new Vuex.Store({
       {
         name: "LinkedIn",
         link: "https://www.linkedin.com/in/dhiraj-shrotri/",
-        icon: "linkedin" 
+        icon: "linkedin"
       },
       {
         name: "Github",
         link: "https://github.com/dhirajshrotri",
-        icon: "github" 
+        icon: "github"
       },
       {
         name: "Twitter",
         link: "https://twitter.com/DhirajShrotri",
-        icon: "twitter" 
+        icon: "twitter"
       }
     ],
     companies: [
       {
-        name: "Cloudnaut Technologies",
-        role: "Full Stack JavaScript Developer",
-        description: "Cloudnaut was the technological partner of hireful, a UK based company working in the recruitment domain. Most of my work at Cloudnaut was focused around developing and upgrading the hireful ATS product.",
-        startDate: "Sept 2018",
-        endDate: "Dec 2020",
+        name: "Intralinks",
+        role: "Software Developer Intern",
+        description: "",
+        startDate: "Jun 2022",
+        endDate: 'Present',
         roles: [
-          { description: "Collaborated with other team members to build a video conferencing application using Amazon's Chime Javascript SDK." },
-          { description: "As part of the team, helped rebrand the ATS when EasyWeb Group officially changed to hireful. The complete ATS rebrand was tested and delivered in 5 days." },
-          { description: "Developed a task management tool called \"Yojna\" using TypeScript, NestJs, NodeJs, MySQL for backend and VueJs, Vuex and for frontend." },
-          { description: "Created a survey tool for company using VueJs, Vuex, Sass and D3.js for frontend and Serverless, MongoDB and NodeJS for backend." }
+          { description: "Integrated Zendesk single sign on into Intralinks API applications." },
+          { description: "Led migration of screens from Intralinks admin application into Intralinks Tenant admin application." },
+          { description: "Migration involved a total of 5 CRUD screens and was delivered within a single sprint." }
         ]
       },
       {
-        name: "Vodafone Shared Services India Pvt. Ltd.",
-        role: "Graduate Engineer Trainee",
-        startDate: "Aug 2017",
-        endDate: "Jun 2018",
+        name: "TruWeather Solutions",
+        role: "Full Stack Developer",
+        description: "",
+        startDate: "May 2021",
+        endDate: "May 2022",
         roles: [
-          { description: "Wrote shell scripts, fixing data process pipelines, implementing change management requests and liaising with incident manager. Helped to maintain a MTTR of under 3 minutes for critical incidents." },
-          { description: "Collaborated with team to automate certain data processing tasks carried out daily. Wrote shell scripts, python scripts and Macros in MS Excel. Automations helped improve productivity in the team." },
+          { description: "Collaborated with client stakeholders to add new features to frontend applications." },
+          { description: "Improved user experience by making frontend applications responsive and compatible with all major browsers and mobile devices." },
+          { description: "Improved user experience led to 30% more active users per month." },
+          { description: "Implemented weather visualization data into mapping application using Leaflet JavaScript library." },
+          { description: "Integrated payment gateway using Stripe into frontend application to manage invoices of clients." }
+        ]
+      },
+      {
+        name: "Cloudnaut Technologies",
+        role: "Full Stack JavaScript Developer",
+        description: "",
+        startDate: "Sept 2018",
+        endDate: "Dec 2020",
+        roles: [
+          { description: "Primary responsibilities included working directly with the client stakeholders to add features to main ATS product." },
+          { description: "Created a component library of responsive and modular web components to be used across frontend applications." },
+          { description: "Created a dashboard for socio-economic, time to fill and time to hire information." },
+          { description: "The dashboard helped clients identify bottlenecks and make their hiring process more transparent." },
+          { description: "Led the effort to build a video conferencing application and integrate it in the existing application using AWS Chime SDK." },
+          { description: "The Video Conferencing application was the MVP as it enabled clients to make their hiring processes remote friendly at the start of the pandemic." },
+
         ]
       },
       {
@@ -88,23 +106,24 @@ export default new Vuex.Store({
         endDate: "May 2017",
         roles: [
           { description: "Led a 4 member undergraduate student team working on Bachelor's final year project." },
-          { description: "Devised a low cost pick and place delta mechanism based robot for automated assembly of electronic printed circuit boards. Mechanism was 2.5x cheaper than alternatives available in the market." },
+          { description: "Devised a low cost pick and place delta mechanism based robot for automated assembly of electronic printed circuit boards." },
+          { description: "This mechanism was 2.5x cheaper than alternatives available in the market." },
           { description: "Published a paper on \"Delta Mechanism based Implementation for Automated PCB Population\" in International Journal of Engineering Technology, Management and Applied Sciences May 2017 edition." },
-        ]              
+        ]
       },
       {
         name: "Joven Workforce Pvt. Ltd.",
         role: "Web Developer",
-        description: "“Eventosis” is an online portal launched by Joven Workforce Pvt. Ltd. that provides manpower solutions to brands, event management companies, advertising agencies and startups who are looking to promote their products.",
+        description: "",
         startDate: "Jun 2015",
         endDate: "July 2016",
         roles: [
           { description: "As a web developer, I helped build and maintain the web app for the company. The app was built using Angular 1.5 and Ionic framework for the frontend and PHP and MySQL for the backend." },
-        ]              
+        ]
       }
     ]
   },
-  getters: { 
+  getters: {
     age: state => {
       let ageDiff = Date.now() - state.profile.birthDay;
       let ageDate = new Date(ageDiff);
