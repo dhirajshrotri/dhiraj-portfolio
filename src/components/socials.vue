@@ -6,7 +6,7 @@
       Please reach out to me at my socials.
     </h1>
     <div
-      class="flex flex-row items-center justify-center gap-12"
+      class="flex  flex-col md:flex-row items-center justify-center gap-12"
     >
       <div
         v-for="(soc, index) in socials"
